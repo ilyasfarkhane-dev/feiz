@@ -35,7 +35,7 @@ const AboutSection = () => {
                 <div className="mil-lines-place">
                   <LinesIcon />
                 </div>
-                <div className="mil-up mil-img-frame">
+                <div className="mil-up mil-img-frame ">
                   <img
                     src={Data.image.url}
                     alt={Data.image.alt}
