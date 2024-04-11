@@ -1,6 +1,8 @@
 import { Fragment, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
 import Data from "@data/sections/nav.json";
+import DataBtn from "@data/sections/hero-1.json";
+import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Link from "next/link";
 import {
   Bars3Icon,
@@ -57,19 +59,19 @@ const DefaultHeader = () => {
 
                 {/* Links */}
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                <div className="space-y-6 border-t border-gray-200 px-4 pb-[180px] pt-8">
                   <div key="accueil" className="flow-root">
                     <Link
                       href="/"
-                      className="-m-2 block p-2 font-medium text-gray-900"
+                      className="-m-2 block p-4 font-medium text-gray-900"
                     >
                       Accueil
                     </Link>
                   </div>
                   <div key="Blogs" className="flow-root">
                     <Link
-                      href="blog"
-                      className="-m-2 block p-2 font-medium text-gray-900"
+                      href="/blog"
+                      className="-m-2 block p-4 font-medium text-gray-900"
                     >
                       Blogs
                     </Link>
@@ -77,7 +79,7 @@ const DefaultHeader = () => {
                   <div key="Carrière" className="flow-root">
                     <Link
                       href="/"
-                      className="-m-2 block p-2 font-medium text-gray-900"
+                      className="-m-2 block p-4 font-medium text-gray-900"
                     >
                       Carrière
                     </Link>
@@ -85,12 +87,16 @@ const DefaultHeader = () => {
                 </div>
 
                 <div className="border-t border-gray-200 px-4 py-6 flex justify-center">
-                  <button
-                    className="font-semibold rounded-full   text-white px-4 py-2"
-                    style={{ backgroundColor: "#FF5733" }}
+                  <Link
+                    href={DataBtn.button1.link}
+                    className="mil-button mil-arrow-place mil-btn-space"
+                    style={{ background: "#FF5733" }}
                   >
-                    CONTACTEZ-NOUS
-                  </button>
+                    <span className="font-bold text-white">
+                      {DataBtn.button1.label}
+                    </span>
+                    <ArrowIcon />
+                  </Link>
                 </div>
               </Dialog.Panel>
             </Transition.Child>
