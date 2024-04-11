@@ -4,6 +4,8 @@ import Data from "@data/sections/nav.json";
 import DataBtn from "@data/sections/hero-1.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Link from "next/link";
+import Image from "next/image";
+
 import {
   Bars3Icon,
   MagnifyingGlassIcon,
@@ -107,8 +109,10 @@ const DefaultHeader = () => {
       <header className="relative" style={{ backgroundColor: "#FF5733" }}>
         <div className="hid flex items-center justify-between bg-white px-4 py-2 sm:px-6 lg:px-8">
           {/* Logo */}
-          <img
+          <Image
             className="h-10 w-auto sm:h-12"
+            width={500}
+            height={500}
             src={Data.image.url}
             alt={Data.image.alt}
           />

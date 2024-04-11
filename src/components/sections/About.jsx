@@ -1,13 +1,14 @@
 import Data from "@data/sections/about.json";
 import LinesIcon from "@layouts/svg-icons/Lines";
+import Image from "next/image";
 
 const AboutSection = () => {
   return (
     <>
       {/* about */}
       <section id="about">
-        <div className="container mil-p-120-30">
-          <div className="row justify-content-between ">
+        <div className="container py-8">
+          <div className="row justify-content-between items-center">
             <div className="col-lg-6 col-xl-5">
               <div className="">
                 <h2
@@ -30,16 +31,18 @@ const AboutSection = () => {
                 </div> */}
               </div>
             </div>
-            <div className="col-lg-5 ">
+            <div className="col-lg-5 items-center">
               <div className="mil-about-photo ">
                 <div className="mil-lines-place">
                   <LinesIcon />
                 </div>
                 <div className="mil-up mil-img-frame ">
-                  <img
+                  <Image
                     src={Data.image.url}
                     alt={Data.image.alt}
-                    className="mil-scale"
+                    width={300}
+                    height={300}
+                    className="mil-scale mb-8"
                     data-value-1="1"
                     data-value-2="1.2"
                   />
