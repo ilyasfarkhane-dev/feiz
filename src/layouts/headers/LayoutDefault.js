@@ -114,7 +114,7 @@ const DefaultHeader = () => {
           />
 
           {/* Phone */}
-          <div className="sm:flex items-center justify-center ml-8">
+          <div className="sm:flex items-center justify-center ml-8 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -134,7 +134,7 @@ const DefaultHeader = () => {
           </div>
 
           {/* Email */}
-          <div className=" sm:flex items-center justify-center ml-8">
+          <div className=" sm:flex items-center justify-center ml-8 pr-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

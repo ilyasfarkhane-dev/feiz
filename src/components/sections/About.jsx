@@ -35,10 +35,7 @@ const AboutSection = () => {
                 <div className="mil-lines-place">
                   <LinesIcon />
                 </div>
-                <div
-                  className="mil-up mil-img-frame"
-                  style={{ paddingBottom: "160%" }}
-                >
+                <div className="mil-up mil-img-frame">
                   <img
                     src={Data.image.url}
                     alt={Data.image.alt}
