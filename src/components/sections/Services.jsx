@@ -2,6 +2,7 @@ import Data from "@data/sections/services.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
+import Caroucel from "@components/sliders/Caroucel";
 
 const ServicesSection = () => {
   return (
@@ -42,7 +43,7 @@ const ServicesSection = () => {
               </div>
             </div>
 
-            <div className="row mil-services-grid m-0">
+            {/* <div className="row mil-services-grid m-0">
               {Data.items.map((item, key) => (
                 <div
                   key={`services-item-${key}`}
@@ -60,9 +61,11 @@ const ServicesSection = () => {
                   </Link>
                 </div>
               ))}
-            </div>
+            </div> */}
+            <Caroucel />
           </div>
         </div>
+        {/* <Caroucel /> */}
       </section>
       {/* services end */}
     </>

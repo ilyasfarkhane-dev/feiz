@@ -27,6 +27,9 @@ img.mfp-img {
   .tit-about {
     text-align: center;
   }
+  .tit-service {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 530px) {
