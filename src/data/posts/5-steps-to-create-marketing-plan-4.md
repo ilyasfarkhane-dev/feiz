@@ -1,6 +1,6 @@
 ---
 #preview
-title: '5 Steps to Create an Outstanding Marketing Plan'
+title: '5 Steps to Create an instanding Marketing Plan casablanca'
 date: '2022-04-02'
 image: "/img/blog/3.jpg"
 category:

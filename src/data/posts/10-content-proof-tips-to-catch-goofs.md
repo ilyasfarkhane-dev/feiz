@@ -1,6 +1,6 @@
 ---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
+title: '10 Content  Tips to Catch More Avoidable Goofs'
 date: '2022-01-02'
 image: "/img/blog/6.jpg"
 category:

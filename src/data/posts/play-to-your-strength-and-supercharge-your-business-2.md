@@ -1,6 +1,6 @@
 ---
 #preview
-title: "Play to Your Strengths and Supercharge Your Business"
+title: "Play to Your Strengths and Supercharge Your "
 date: "2022-02-02"
 image: "/img/blog/seo.jpg"
 category:

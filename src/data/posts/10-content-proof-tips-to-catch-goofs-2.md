@@ -1,6 +1,6 @@
 ---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
+title: '15 Content Proofreading Tips to Catch More Avoidable seo'
 date: '2022-02-02'
 image: "/img/blog/5.jpg"
 category:
