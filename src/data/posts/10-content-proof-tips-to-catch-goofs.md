@@ -3,10 +3,7 @@
 title: '10 Content  Tips to Catch More Avoidable Goofs'
 date: '2022-01-02'
 image: "/img/blog/6.jpg"
-category:
-    - Copywrighting
-categories:
-    - copywrighting
+
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 
 #full details

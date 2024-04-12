@@ -37,9 +37,6 @@ const PopularPostsSection = ({ posts }) => {
                   </div>
                   <div className="mil-post-descr">
                     <div className="mil-labels mil-up mil-mb-30">
-                      <div className="mil-label mil-upper mil-accent">
-                        {item.category}
-                      </div>
                       <div className="mil-label mil-upper">
                         <Date dateString={item.date} />
                       </div>

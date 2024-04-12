@@ -36,6 +36,9 @@ img.mfp-img {
   .desc-about {
     text-align: center;
   }
+  .devis-img {
+    display: none;
+  }
 }
 .blog-tit {
   color: #ff5733;

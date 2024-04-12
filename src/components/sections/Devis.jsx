@@ -11,11 +11,11 @@ const TeamSection = () => {
         <div className="container ">
           <div className="row items-center">
             <div className="col-lg-6">
-              <div className="mil-mb-90">
+              <div className="mil-mb-90 devis-img">
                 <img src={Data.image.url} alt={Data.image.alt} />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 py-4">
               <h1 className="text-center mb-5 text-white text-3xl font-bold">
                 Demander votre devis gratuitement
               </h1>
@@ -57,7 +57,7 @@ const TeamSection = () => {
                     <div>
                       <button
                         type="submit"
-                        className="flex w-full justify-center rounded-md bg-[#ff5733] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        className="flex w-full justify-center rounded-md bg-[#ff5733] px-3 py-3 text-sm font-semibold leading-6 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                       >
                         ENVOYER
                       </button>

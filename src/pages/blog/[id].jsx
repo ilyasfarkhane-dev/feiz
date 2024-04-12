@@ -32,10 +32,6 @@ const PostsDetail = (props) => {
               </div>
               <div className="mil-info mil-up mil-mb-90">
                 <div>
-                  Category: &nbsp;
-                  <span className="mil-dark">{postData.category}</span>
-                </div>
-                <div>
                   Date: &nbsp;
                   <span className="mil-dark">
                     <Date dateString={postData.date} />
@@ -88,8 +84,6 @@ const PostsDetail = (props) => {
         </div>
       </section>
       {/* publication end */}
-
-      <RelatedPostsSection items={props.related} />
     </Layouts>
   );
 };

@@ -3,10 +3,7 @@
 title: "Play to Your Strengths "
 date: "2022-01-02"
 image: "/img/blog/seo.jpg"
-category:
-  - Art
-categories:
-  - art
+
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 
 #full details

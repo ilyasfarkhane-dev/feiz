@@ -1,13 +1,10 @@
 import Data from "@data/sections/services.json";
-import Link from "next/link";
-import ArrowIcon from "@layouts/svg-icons/Arrow";
-import Pentagon from "@layouts/pentagon/Index";
+
 import Caroucel from "@components/sliders/Caroucel";
 
 const ServicesSection = () => {
   return (
     <>
-      {/* services */}
       <section className="mil-dark-bg">
         <div className="mi-invert-fix">
           <div className="mil-animation-frame">
@@ -43,31 +40,10 @@ const ServicesSection = () => {
               </div>
             </div>
 
-            {/* <div className="row mil-services-grid m-0">
-              {Data.items.map((item, key) => (
-                <div
-                  key={`services-item-${key}`}
-                  className="col-md-6 col-lg-3 mil-services-grid-item p-0"
-                >
-                  <Link href={item.link} className="mil-service-card-sm mil-up">
-                    <h5
-                      className="mil-muted mil-mb-30"
-                      dangerouslySetInnerHTML={{ __html: item.title }}
-                    />
-                    <p className="mil-light-soft mil-mb-30">{item.text}</p>
-                    <div className="mil-button mil-icon-button-sm mil-arrow-place">
-                      <ArrowIcon />
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div> */}
             <Caroucel />
           </div>
         </div>
-        {/* <Caroucel /> */}
       </section>
-      {/* services end */}
     </>
   );
 };

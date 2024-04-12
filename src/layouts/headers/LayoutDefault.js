@@ -138,7 +138,7 @@ const DefaultHeader = () => {
           </div>
 
           {/* Email */}
-          <div className=" sm:flex items-center justify-center ml-8 pr-8">
+          <div className=" sm:flex items-center justify-center ml-2 pr-12">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

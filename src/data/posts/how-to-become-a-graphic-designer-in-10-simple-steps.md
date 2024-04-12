@@ -3,10 +3,7 @@
 title: 'How to Become a Graphic Designer in 10 Simple Steps'
 date: '2022-02-02'
 image: "/img/blog/4.jpg"
-category:
-    - Marketing
-categories:
-    - marketing
+
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 
 #full details

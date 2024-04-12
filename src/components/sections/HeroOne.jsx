@@ -38,14 +38,14 @@ const HeroOne = () => {
           <div className="container">
             <div className="mil-banner-content mil-up lg:text-left flex flex-col justify-center items-center lg:items-start">
               <h1
-                className="mil-muted mil-mb-60 text-3xl font-bold"
+                className="mil-muted mil-mb-60 text-4xl font-bold"
                 style={{ color: "#FF5733" }}
                 dangerouslySetInnerHTML={{ __html: Data.title }}
               />
 
               <div className="row">
                 <div className="col-md-7 col-lg-5">
-                  <p className="mil-light-soft mil-mb-60 text-lg font-medium">
+                  <p className="mil-light-soft mil-mb-60 text-xl font-medium">
                     {Data.description}
                   </p>
                 </div>

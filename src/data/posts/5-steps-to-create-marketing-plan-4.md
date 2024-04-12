@@ -3,10 +3,7 @@
 title: '5 Steps to Create an instanding Marketing Plan casablanca'
 date: '2022-04-02'
 image: "/img/blog/3.jpg"
-category:
-    - Code
-categories:
-    - code
+
 short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
 
 #full details
