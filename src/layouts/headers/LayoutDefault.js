@@ -80,7 +80,7 @@ const DefaultHeader = () => {
                   </div>
                   <div key="Carrière" className="flow-root">
                     <Link
-                      href="/"
+                      href="/carriere"
                       className="-m-2 block p-4 font-medium text-gray-900"
                     >
                       Carrière
@@ -179,7 +179,10 @@ const DefaultHeader = () => {
                     Accueil
                   </Link>
 
-                  <Link href="/" className="text-sm font-medium text-white">
+                  <Link
+                    href="/carriere"
+                    className="text-sm font-medium text-white"
+                  >
                     Carrière
                   </Link>
                   <Link href="/blog" className="text-sm font-medium text-white">
